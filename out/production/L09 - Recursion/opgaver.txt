@@ -1,0 +1,98 @@
+Exercise 0
+Make a method that returns the count of even numbers in a list given as parameter. Use a
+recursive helper method to calculate the count.
+Exercise 1
+Write a recursive method public int binomial(int n, int m) that calculates the
+binomial coefficient Kn,m for the positive numbers m and n,  with 0 <= m <= n.
+The recursive definition is:
+Simple cases Kn,0 = 1 eller Kn,n = 1
+Recursive case Kn,m = Kn-1,m + Kn-1,m-1, 0<m<n
+Kn,m=(n
+m)
+Test your method: make a table like the following
+  Table of K(n,m)
+    m 0       1       2       3       4       5       6       7
+  n --------------------------------------------------------------
+  0 | 1
+  1 | 1       1
+  2 | 1       2       1
+  3 | 1       3       3       1
+  4 | 1       4       6       4       1
+  5 | 1       5       10      10      5       1
+  6 | 1       6       15      20      15      6       1
+  7 | 1       7       21      35      35      21      7       1
+
+
+Exercise 2
+Write a recursive method public boolean isPalindrome(String s) that tells
+whether a string s is a palindrome. The string s contains only letters.
+The recursive definition of whether a string s is a palindrome:
+Simple case true, if s.length() <=1
+Recursive case c0=cn-1 and c1...cn-2 is a palindrome
+(s is given by s = c0c1...cn-2cn-1)
+
+Exercise 3
+In the table below is a recursive definition of sequence of numbers:
+
+no0 = 2
+no1 = 1
+no2 = 5
+non = 2*non-3 - non-1 if n > 2 and n is even
+non = non–1 +  non-2 + 3*non-3 if n > 2 and n is odd
+Exercise 3.1
+Calculate by hand the value of the third, fourth, fifth and sixth number in the sequence; that is
+the value of no3, no4, no5 and no6.
+Exercise 3.2
+Programme a recursive method named calcNo that calculates the n’th number in the sequence.
+The signature of the method is:
+ //Returns the n’th number in the sequence defined above.
+ //Requires: n >= 0
+ public int CalcNo(int n)
+Exercise 3.3
+Programme an iterative method that calculates the n’th number in the sequence. No recursion
+is allowed here.
+
+Exercise 4
+In this exercise you will have to programme a method that can print all anagrams of a word.
+An anagram of a word is another word containing exactly the same letters as the original word
+but in another order.
+Example: The word cat has the following anagrams:
+cat
+cta
+act
+atc
+tca
+tac
+(Not all the words above are in the English dictionary, but that doesn’t matter here.)
+You will have to write a recursive method that prints a word and all its anagrams.
+
+A way to solve this problem recursively is illustrated here:
+The word is cat. First split the word in the prefix c and the word at. Print c concatenated
+with all anagrams of at. Then split the word in a and ct. Print a concatenated with all
+anagrams of ct. At last split the word in t and ca. Print t concatenated with all anagrams of
+ca. Every time you remove a letter from the word, you append the letter to the prefix.
+The method’s signature is:
+public void printAnagrams(String prefix, String word)
+To start the method with the word cat use printAnagrams(””,”cat”).
+
+
+Towers of Hanoi exercise
+First calculate the number of moves needed to move n disks.
+Then extend the Tower of Hanoi program so that it prints the needed number of moves.
+
+Extra: Sierpinski Triangles exercise
+The figure below shows a Sierpinski triangle of order 5.
+A Sierpinski triangle of order 0 is just a triangle with base 2*h and height h (where h is an
+integer number).
+A Sierpinski triangle of order 1 is a Sierpinski triangle of order 0 with triangles of height h/2
+added at the 3 corners. A Sierpinski triangle of order 2 is a Sierpinski triangle of order 1 with
+triangles of height h/4 added at the 3 corners of the 3 inner triangles. And so forth for
+Sierpinski triangles of higher orders.
+
+Make a program that draws Sierpinski triangles (as shown in the figure). (Look in the Loops
+paper from 1st semester, if you can not remember how to draw lines.)
+
+Add buttons to the panel, so that a Sierpinski triangle of higher/lesser order is drawn, when
+the increase(>)/decrease (<) button is pressed.
+Extra: Koch Snowflake exercise
+Make a program that can draw the following figure (called a Koch Snowflake):

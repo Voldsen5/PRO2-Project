@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/L01-java-collections/L01-java-collections.iml" filepath="$PROJECT_DIR$/L01-java-collections/L01-java-collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L02-Lambda/L02-Lambda.iml" filepath="$PROJECT_DIR$/L02-Lambda/L02-Lambda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L04 - Junit Test/L04 - Junit Test.iml" filepath="$PROJECT_DIR$/L04 - Junit Test/L04 - Junit Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L04_2 - junit test/L04_2 - junit test.iml" filepath="$PROJECT_DIR$/L04_2 - junit test/L04_2 - junit test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L07 - Tidskompleksitet/L07 - Tidskompleksitet.iml" filepath="$PROJECT_DIR$/L07 - Tidskompleksitet/L07 - Tidskompleksitet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L08 - Recursion/L08 - Recursion.iml" filepath="$PROJECT_DIR$/L08 - Recursion/L08 - Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L09 - Recursion/L09 - Recursion.iml" filepath="$PROJECT_DIR$/L09 - Recursion/L09 - Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L10 - Del-Loes-Kombiner/L10 - Del-Loes-Kombiner.iml" filepath="$PROJECT_DIR$/L10 - Del-Loes-Kombiner/L10 - Del-Loes-Kombiner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L11 - Generics/L11 - Generics.iml" filepath="$PROJECT_DIR$/L11 - Generics/L11 - Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L12 - Strategy - Singleton/L12 - Strategy - Singleton.iml" filepath="$PROJECT_DIR$/L12 - Strategy - Singleton/L12 - Strategy - Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L13 Observer - Adapter/L13 Observer - Adapter.iml" filepath="$PROJECT_DIR$/L13 Observer - Adapter/L13 Observer - Adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L14 - Composite - Iterator/L14 - Composite - Iterator.iml" filepath="$PROJECT_DIR$/L14 - Composite - Iterator/L14 - Composite - Iterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L15 - Arkitekture - Serializable/L15 - Arkitekture - Serializable.iml" filepath="$PROJECT_DIR$/L15 - Arkitekture - Serializable/L15 - Arkitekture - Serializable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L22 - Linked List/L22 - Linked List.iml" filepath="$PROJECT_DIR$/L22 - Linked List/L22 - Linked List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L23 - Stack/L23 - Stack.iml" filepath="$PROJECT_DIR$/L23 - Stack/L23 - Stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L24 - Queue And Deque/L24 - Queue And Deque.iml" filepath="$PROJECT_DIR$/L24 - Queue And Deque/L24 - Queue And Deque.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L25 - Hashing/L25 - Hashing.iml" filepath="$PROJECT_DIR$/L25 - Hashing/L25 - Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L26 - Map/L26 - Map.iml" filepath="$PROJECT_DIR$/L26 - Map/L26 - Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L27 - Binary Trees/L27 - Binary Trees.iml" filepath="$PROJECT_DIR$/L27 - Binary Trees/L27 - Binary Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L28 - Binary Search Trees/L28 - Binary Search Trees.iml" filepath="$PROJECT_DIR$/L28 - Binary Search Trees/L28 - Binary Search Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PRO2-Project.iml" filepath="$PROJECT_DIR$/PRO2-Project.iml" />
+    </modules>
+  </component>
+</project>

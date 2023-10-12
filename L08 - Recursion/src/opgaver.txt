@@ -1,0 +1,76 @@
+Exercise 1
+Write a recursive method public int factorial(int n) that calculates n!, n > 0.
+The recursive definition is:
+1! = 1
+n! = n*(n-1)!, n>0
+
+
+Exercise 2
+Write a recursive method public int power(int n, int p) that calculates np,
+p>=0.
+The recursive definition is
+n^0 = 1
+n^p = n^p-1 *n, p>0
+Write another recursive method public int power2(int n, int p) that calculates
+n^p, p>=0 too, but this time with the definition:
+n^0 = 1
+n^p = n^p-1 *n, p>0 and p is uneven
+n^p = (n*n)^p/2, p>0 and p is even
+
+
+Exercise 3
+Write a recursive method public int prod(int a, int b) that calculates a*b (a
+and b are non-negative integer numbers >= 0). The method has to use the following recursive
+definition of multiplication (use of java’s * oprator is not allowed):
+a * b = (a-1) * b + b
+1 * b = b
+0 * b = 0
+Now suppose that your machine is capable of doubling and halving integer numbers.
+Write a recursive method public int prodRus(int a, int b) that calculates a*b
+using the following recursive definition of multiplication:
+a * b = (a div 2) * (2*b) if a is even and a >= 2
+a * b = (a-1) * b + b if a is odd and a >= 1
+0 * b = 0
+Which of the two methods is the faster one and why?
+
+
+Exercise 4
+In this exercise you must write a recursive method
+public String reverse(String s)
+that returns s with the characters in reverse order. Example: reverse(”RANSLIRPA”) is
+”APRILSNAR”.
+First you have to write down the recursive definition, and then you must program the method.
+
+
+Exercise 5
+Make a method that recursively traverses through all directories contained in the folder given
+by the path parameter and prints the names of all directories found:
+public static void scanDir(String path)
+Hint: Create a File object from the path and use the list() and isDirectory() methods in the File
+class.
+Make a method that can also write the level of the directory before the directory name (level
+of the start directory is 1).
+
+
+Exercise 6
+Write a recursive method that implements Euclid's algorithm for finding the greatest common
+divisor of two integers (both >= 2). The greatest common divisor is the largest integer that
+divides both values (with no remainder).
+Greatest common divisor gcd(b,a) is defined by:
+gcd(a, b) = b  if b <= a and b divides a
+gcd(a, b) = gcd(b, a)  if a < b
+gcd(a, b) = gcd(b, a % b) otherwise
+
+
+Exercise 7
+A domino block is sized 2*1. An n-strip is a board sized 2*n. Make a method that calculates
+the number of ways an n-strip can be covered with domino blocks.
+Hint: First you must find the recursive formula for the function
+f(n) = number of ways an n-strip can be covered with domino blocks.
+
+0 < n >= 2
+tiles = n
+n > 2
+if odd tiles +1
+if even tiles +2
+f(n)=f(n-1)+f(n-2)
